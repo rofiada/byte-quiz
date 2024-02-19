@@ -1,0 +1,59 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #2e3c50;
+  text-align: center;
+}
+
+
+
+.intro{
+  height: 400px;
+  width: 900px;
+text-align: center;
+border: 3px solid rgb(255, 255, 255);
+border-radius: 20px;
+padding: 10px;
+margin: auto;
+ }
+.intro pre{
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+ }
+/* ==============================php ============================================= */
+
+
+  .question{
+    background-color: #ffff;
+    border-radius: 20px;
+    margin: auto;
+    width: 89%;
+  }
+.the-question{
+  color: rgb(0, 0, 0);
+font-size: 20px;
+
+}
+.the-answer button{
+  font-weight: 700;
+  border-radius: 20px;
+text-align: center;
+  color: aliceblue;  
+  background-color: darkslategrey;
+  width: 800px;
+  height: 35px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.the-answer button:hover{
+  background-color: #1abc9c;
+  transform: scale(1.1);
+  transition: ease .5s;  
+  cursor: pointer;      
+}
+
+
+
+            

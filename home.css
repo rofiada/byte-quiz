@@ -1,0 +1,257 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+/* ///////////////////////////////// start navbar///////////////////////////////////// */
+nav{
+  text-align: center;
+}
+li{
+  float: left;
+  height: 50px;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+/* ////////////////////////////////////////end navbar//////////////////////////////////////// */
+/* backroung  */
+
+
+.home{
+  background-image: url(../img/hoome.jpg);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+}
+.overlay{
+position: absolute;
+background-color: black;
+width: 100%;
+  top: 0;
+  left: 0;
+  right:0;
+  bottom: 0;
+  opacity: 0.5;
+   
+}
+.home-Text{
+  position: absolute;
+  text-transform: uppercase;
+  color: rgb(230, 245, 245);
+  margin-top: 100px;
+  font-size: 33px;
+  top: 10%;
+  left: 34%;
+  font-weight:900;
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ///////////////////////////////////////start about////////////////////////////////////////////////// */
+
+
+.about{
+  display: flex;
+  margin-left: 50px;
+margin-top: 40px;
+
+}
+
+h1{
+  margin-top:20px ;
+  text-align: center;
+  text-transform: uppercase;
+}
+.about-text{
+  padding: 10px;
+  margin-top: -50px;
+}
+img{
+  border-radius:20px;
+}
+
+/* ///////////////////////////////////////end about////////////////////////////////////////////////// */
+
+
+/* /////////////////////////////////////// start courses////////////////////////////////////////////////// */
+.curses h1{
+  margin-top: 40px;
+  text-align: center;
+}
+
+
+.curses{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 22px;
+}
+.curses div{
+  padding: 10px;
+  width: 270px;
+  height: 350px;
+  border: solid 5px  rgb(5, 5, 5);
+  border-radius: 20px;
+  background-color: rgb(183, 186, 189);
+}
+.curses2{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+
+
+}
+.curses2 div{
+  padding: 10px;
+  width: 270px;
+  height: 350px;
+  border: solid 5px  rgb(5, 5, 5);
+border-radius: 20px;
+background-color: rgb(183, 186, 189);
+
+}
+.curses div button{
+  font-size: 30px;
+  font-weight: 700;
+  background-color: rgb(69, 109, 109);
+  border: none;
+  width: 140px;
+  height: 30px;
+  outline: none;
+  border-radius: 10px;
+  color: aliceblue;
+  
+}
+
+/* .curses2 div img{
+  border-radius: 40%;
+}
+.curses div img{
+  border-radius: 40%;
+} */
+.curses2 div button{
+  font-size: 30px;
+  font-weight: 700;
+  background-color: rgb(69, 109, 109);
+  border: none;
+  outline: none;
+  width: 140px;
+  height: 50px;
+  border-radius: 10px;
+  color: aliceblue;
+}
+.curses2 div button:hover{
+  background-color: rgb(94, 130, 130);
+  font-size: 35px;
+
+}
+
+.curses div button:hover{
+  background-color: rgb(48, 77, 77);
+  font-size: 35px;
+
+}
+
+
+/* ///////////////////////////////////////end courses////////////////////////////////////////////////// */
+
+
+
+/* ///////////////////////////////////////////start footer//////////////////////////////////////////////// */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+footer{
+  background-color: black;
+  border-radius: 20px;
+}
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+    margin-top: 80px;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+.socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialicons a i{ 
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+/* hover Effect on social media icons*/
+.socialicons a:hover{
+background-color: #111;
+transition: 0.5s;
+}
+.socialicons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footernav{
+margin: 50px  0;
+}
+.footernav ul{
+    display: flex;
+
+}
+.footernav ul li a{
+  justify-content: center;
+
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footernav ul li a:hover{
+    opacity: 1;
+
+}
+
+/* ///////////////////////////////////////footer end//////////////////////////////////// */
+
+
+
+
